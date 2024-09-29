@@ -1,6 +1,3 @@
-Here's a description tailored to your Raylib Checkers Game project for the GitHub repository:
-
----
 
 # Raylib Checkers Game
 
@@ -69,10 +66,16 @@ If you'd like to contribute, follow these steps:
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a Pull Request.
 
+## Contact
+
+For inquiries or feedback, feel free to reach out to me:
+
+- Telegram: @firaflash
+- Email: flexflash09@gmail.com
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-This description should be a good fit for your project! Let me know if you want to adjust anything further.
