@@ -190,9 +190,9 @@ int main(){
              
             Color turn;
             if(game.turn) {
-                turn = (Color){250,91,82,255};  // SaddleBrown
+                turn = (Color){251, 251, 238, 255};  // made the turn indicator color the same as the qorki color
             } else {
-                turn = (Color){217,216,196,255};  // DarkBrown
+                turn = (Color){226, 135, 67, 255};   // made the turn indicator color the same as the qorki color
             }
 
             DrawRectangle(BOARD_WIDTH + 120, 250, 30, 30, turn);
