@@ -79,4 +79,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Let me know if you need any more adjustments!
