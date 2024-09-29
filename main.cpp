@@ -450,10 +450,11 @@ void drawQorki(Cell cells[8][8]){
 
 Color getQorkiColor(Cell cell) {
     // Define complementary wood-like colors for the Qorki pieces
-    Color player1QorkiColor = (Color){160, 82, 45, 255};  // SaddleBrown for Player 1's Qorki
-    Color player1KingColor = (Color){139, 69, 19, 255};   // DarkBrown for Player 1's King Qorki
-    Color player2QorkiColor = (Color){210, 180, 140, 255}; // Tan for Player 2's Qorki
-    Color player2KingColor = (Color){205, 133, 63, 255};  // Peru for Player 2's King Qorki
+    Color player1QorkiColor = (Color){251,251,238,255};  // SaddleBrown for Player 1's Qorki
+    Color player1KingColor = (Color){106,81,75,255};   // Gold for Player 1's King Qorki (brighter)
+    Color player2QorkiColor = (Color){84,85,84,255}; // Tan for Player 2's Qorki
+    Color player2KingColor = (Color){23,21,18,255}; // HotPink for Player 2's King Qorki (brighter)
+
 
     switch(cell.cellType) {
         case player1Qorki:
