@@ -35,12 +35,17 @@ This project is a graphical checkers game developed in C++ using Raylib. Players
 1. Install the necessary dependencies, including Raylib and a C++ compiler (g++, Visual Studio, etc.).
 2. Compile the project using the following command:
     ```bash
-    g++ main.cpp -o game -lraylib
+    go to " main.code-workspace " file and tap on open Workspace
     ```
-3. Run the compiled executable:
+3. go to path
     ```bash
-    ./game
+    go to the main.cpp file
     ```
+4. Run the compiled executable:
+    ```bash
+    Ctrl + F5
+    ```    
+    
 
 ## How to Play
 
