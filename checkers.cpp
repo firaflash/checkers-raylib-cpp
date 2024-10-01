@@ -190,9 +190,9 @@ int main(){
              
             Color turn;
             if(game.turn) {
-                turn = (Color){250,91,82,255};  // SaddleBrown
+                turn = (Color){251, 251, 238, 255};  // made the turn indicator color the same as the qorki color
             } else {
-                turn = (Color){217,216,196,255};  // DarkBrown
+                turn = (Color){226, 135, 67, 255};   // made the turn indicator color the same as the qorki color
             }
 
             DrawRectangle(BOARD_WIDTH + 120, 250, 30, 30, turn);
@@ -450,10 +450,10 @@ void drawQorki(Cell cells[8][8]){
 
 Color getQorkiColor(Cell cell) {
     // Define complementary wood-like colors for the Qorki pieces
-    Color player1QorkiColor = (Color){251,251,238,255};  // SaddleBrown for Player 1's Qorki
-    Color player1KingColor = (Color){106,81,75,255};   // Gold for Player 1's King Qorki (brighter)
-    Color player2QorkiColor = (Color){84,85,84,255}; // Tan for Player 2's Qorki
-    Color player2KingColor = (Color){23,21,18,255}; // HotPink for Player 2's King Qorki (brighter)
+    Color player1QorkiColor = (Color){251, 251, 238, 255};  // Light Beige for Player 1's Qorki
+    Color player1KingColor = (Color){255, 215, 0, 255};     // Gold for Player 1's King Qorki
+    Color player2QorkiColor = (Color){226, 135, 67, 255};   // Light Brown for Player 2's Qorki
+    Color player2KingColor = (Color){106, 81, 75, 255};     // Dark Brown for Player 2's King Qorki
 
 
     switch(cell.cellType) {
@@ -465,10 +465,14 @@ Color getQorkiColor(Cell cell) {
             return player2QorkiColor;
         case player2KingQorki:
             return player2KingColor;
+          
+
         // Other cell types, if any
         // default:
     }
-}
+
+
+} 
 
 
 void updateGame(Cell cells[8][8], Game& game, Sound& move){
